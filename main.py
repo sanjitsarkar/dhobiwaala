@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    name="Facebook"
+    name="Dhobiwaala"
     return render_template("index.html",name_template=name);
 @app.route('/db')
 def db():
